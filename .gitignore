@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Hadoop/Flume/Java specific
+*.class
+*.jar
+*.out
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
