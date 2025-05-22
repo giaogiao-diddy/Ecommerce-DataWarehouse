@@ -102,9 +102,8 @@ ADS 层的结果数据通过脚本同步至 MySQL 数据库，供上层可视化
 - `/scripts/`：采集脚本（Flume、DataX、MaxWell）、调度脚本、集群启动脚本
 - `/config/`：Hive的配置文件
 - `/mockdata/`：生成模拟数据的 Jar、配置
-- `/visual/`：Superset 仪表盘截图与说明
-- `/scheduler/`：调度平台流程设计图或 JSON
-
+- `/docs`:存放架构图、数据源、调度以及可视化截图
+  
 ## 七、运行说明
 1. 按照 `/scripts/cluster-control`中的集群启动脚本启动集群
 2. 启动模拟数据生成脚本
